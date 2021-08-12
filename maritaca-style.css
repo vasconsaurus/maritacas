@@ -1,0 +1,161 @@
+h1, h2, h3{
+    font-family: "GT Cinetype Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+hr{
+    height: 5px;
+    background-color: yellow;
+    border: none;
+    width: 100px;
+    margin-left: 0;
+    margin-top:40px;
+}
+
+p, ul {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+figcaption {
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*estilo das listas: sem nenhum estilo, para poder usar recuo feito na mão com elemento especial de texto*/
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2em;
+  }
+  
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  
+  li:before {
+    content: "⁕";
+    padding-right: 5px;
+  }
+
+/*estilo dos links da tabela de conteúdos, overrides links gerais*/
+ul a{
+    text-decoration-style: wavy; 
+    text-decoration-color: black; 
+    text-decoration-thickness: 0.05em;"
+  }
+ 
+a {
+   font-family: "GT Cinetype Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+   color: black;
+   text-decoration-color: yellow;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.25em; 
+    text-decoration-skip-ink: none;
+}
+
+.italico {
+    font-style: italic;
+}
+
+body{
+    margin: 1% 10%;
+}
+
+/*menu principal topo*/
+/*problema: como fazer a esquerda e direita não "overlap" quando o tamanho diminui?*/
+header{
+    position: relative;
+    margin: 1% 0%;
+    display: block; 
+}
+
+#menu-principal-esq{
+    position: absolute;
+    left: 0px;
+}
+
+#menu-principal-dir{
+    position: absolute;
+    right:0px;
+}
+
+.menu-principal ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.menu-principal li:before{
+    content: none;
+    padding-right: none;  
+}
+
+.menu-principal li{
+    margin-right: 2em;
+}
+
+.menu-principal{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*menu da pagina*/
+.nav-pagina {
+    margin: 48px 0 48px 0;
+}
+
+.geral-ave{
+    margin-bottom: 72px;
+}
+
+/* imagens aves e mapas – imagens*/
+.aves-e-mapas{
+    background-color:rgb(255, 255, 187);
+    padding: 10px;
+    max-height: 220px;
+    }
+    
+figure{
+    display: inline-block; 
+    margin: auto;
+}
+
+figure figcaption {
+    text-align: left;
+}
+
+/* imagens aves e mapas – textos e legendas*/
+
+.legenda-imagens{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.legenda-imagens{
+    position: relative;
+}
+
+caption .legenda-imagens{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.canto{
+    margin: 60px 0px 20px 0px;
+}
+
+
+/*lista final referencias*/
+.referencias{
+    margin: 108px 0 48px 0;
+}
