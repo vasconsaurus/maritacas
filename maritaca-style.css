@@ -1,5 +1,6 @@
 h1, h2, h3{
-    font-family: "GT Cinetype Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
 
 h1{
@@ -56,7 +57,7 @@ ul a{
   }
  
 a {
-   font-family: "GT Cinetype Bold", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+   font-family: "Exo 2 Medium 500", "Helvetica Neue", Helvetica, Arial, sans-serif; 
    color: black;
    text-decoration-color: yellow;
     text-decoration-line: underline;
@@ -80,48 +81,48 @@ header{
     display: block; 
 }
 
-#menu-principal-esq{
+#main-menu__left{
     position: absolute;
     left: 0px;
 }
 
-#menu-principal-dir{
+#main-menu__right{
     position: absolute;
     right:0px;
 }
 
-.menu-principal ul{
+.main-menu ul{
     list-style-type: none;
     margin-left: 0px;
     padding-left: 0px;
 }
 
-.menu-principal li:before{
+.main-menu li:before{
     content: none;
     padding-right: none;  
 }
 
-.menu-principal li{
+.main-menu li{
     margin-right: 2em;
 }
 
-.menu-principal{
+.main-menu{
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 /*menu da pagina*/
-.nav-pagina {
+.page-index {
     margin: 48px 0 48px 0;
 }
 
-.geral-ave{
+.full-content{
     margin-bottom: 72px;
 }
 
 /* imagens aves e mapas – imagens*/
-.aves-e-mapas{
+.images-maps{
     background-color:rgb(255, 255, 187);
     padding: 10px;
     max-height: 220px;
@@ -138,24 +139,24 @@ figure figcaption {
 
 /* imagens aves e mapas – textos e legendas*/
 
-.legenda-imagens{
+.sub-content__caption{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.legenda-imagens{
+.sub-content__caption{
     position: relative;
 }
 
-caption .legenda-imagens{
+caption .sub-content__caption{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
-.canto{
+.audio{
     margin: 60px 0px 20px 0px;
 }
 
 
-/*lista final referencias*/
-.referencias{
+/*lista final references*/
+.references{
     margin: 108px 0 48px 0;
 }
