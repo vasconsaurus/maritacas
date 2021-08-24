@@ -69,7 +69,7 @@ a {
     font-style: italic;
 }
 
-body{
+main{
     margin: 1% 10%;
 }
 
@@ -121,8 +121,30 @@ header{
     margin-bottom: 72px;
 }
 
-/* imagens aves e mapas – imagens*/
+/* sub-content - imagens aves e mapas – imagens*/
+
+.sub-content{
+    display: flex;
+    flex-direction: column;
+}
+
 .images-maps{
+    display: flex;
+    flex-flow: row wrap;
+    background-color:lightgray;
+    padding: 5px;
+}
+
+.images-maps__content{
+    max-height: 200px;
+}
+
+figure{
+    padding: 0px;
+    margin: 0 50px 0 0;
+}
+
+/* .images-maps{
     background-color:rgb(255, 255, 187);
     padding: 10px;
     max-height: 220px;
@@ -134,10 +156,10 @@ figure{
 }
 
 figure figcaption {
-    text-align: left;
+    text-align: left; */
 }
 
-/* imagens aves e mapas – textos e legendas*/
+/* sub- content - imagens aves e mapas – textos e legendas*/
 
 .sub-content__caption{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
