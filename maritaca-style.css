@@ -69,32 +69,56 @@ a {
     font-style: italic;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 main{
     margin: 1% 10%;
 }
 
 /*menu principal topo*/
-/*problema: como fazer a esquerda e direita não "overlap" quando o tamanho diminui?*/
 header{
-    position: relative;
-    margin: 1% 0%;
-    display: block; 
+    margin: 0;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
-#main-menu__left{
-    position: absolute;
-    left: 0px;
+.main-menu{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px;
 }
 
-#main-menu__right{
-    position: absolute;
-    right:0px;
+#main-menu__left ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu__right ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 .main-menu ul{
     list-style-type: none;
-    margin-left: 0px;
-    padding-left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .main-menu li:before{
@@ -107,7 +131,6 @@ header{
 }
 
 .main-menu{
-    display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -131,33 +154,21 @@ header{
 .images-maps{
     display: flex;
     flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
     background-color:lightgray;
     padding: 5px;
+}
+
+figure {
+    padding: 0px;
+    margin: 0px;
 }
 
 .images-maps__content{
     max-height: 200px;
 }
 
-figure{
-    padding: 0px;
-    margin: 0 50px 0 0;
-}
-
-/* .images-maps{
-    background-color:rgb(255, 255, 187);
-    padding: 10px;
-    max-height: 220px;
-    }
-    
-figure{
-    display: inline-block; 
-    margin: auto;
-}
-
-figure figcaption {
-    text-align: left; */
-}
 
 /* sub- content - imagens aves e mapas – textos e legendas*/
 
