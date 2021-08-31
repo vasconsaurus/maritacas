@@ -80,15 +80,19 @@
         <section class="sub-content">
             <hr>   
                 <h2 id="periquitão">Psittacara leucophthalma - periquitão-maracanã</h2>
-                <!--aqui eu testei tirar os figures que tem nos outros, mas não sei o que seria mais apropriado, a ideia é que fique tudo lado a lado quando possível. e eventualmente eu quero empurrar as duas legendas pra direita, uma em cima da outra. fica: img/ mapa/ leg / leg
+                <!--eventualmente eu quero empurrar as duas legendas pra direita, uma em cima da outra. fica: img/ mapa/ leg / leg
                 
                 mas o problema é que se eu tiro o max-height da imagem do passáro, ele começa a dar overflow, mas se eu deixo, eu não consigo fazer ele usar o flex-grow e shrink
                 -->
                     <div class="images-maps">
-                       <img src="imagens/Psittacara leucophthalmus.img1.jpg" alt="3 periquitões-maracanã na natureza" class="images-maps__content">                     
-                        <div class="sub-content__caption">Psittacara leucophthalmus (<span class="italico">Psittacara leucophthalmus</span>)</div>                             
-                        <img src="imagens/mapaocorrencia.img1.php.png" alt="mapa de ocorrência do periquitão-maracanã no Brasil"class="images-maps__content">
-                        <div class="sub-content__caption"> Registro de <span class="italico">periquitão-maracanã</span> no WikiAves </div>
+                       <figure>
+                        <img src="imagens/Psittacara leucophthalmus.img1.jpg" alt="3 periquitões-maracanã na natureza" class="images-maps__content__images"> 
+                        <figcaption class="sub-content__caption">Psittacara leucophthalmus (<span class="italico">Psittacara leucophthalmus</span>)</figcaption> 
+                    </figure>                    
+                        <figure>                            
+                        <img src="imagens/mapaocorrencia.img1.php.png" alt="mapa de ocorrência do periquitão-maracanã no Brasil"class="images-maps__content__maps">
+                        <figcaption class="sub-content__caption"> Registro de <span class="italico">periquitão-maracanã</span> no WikiAves </figcaption>
+                        </figure>
                     </div>
                     <div class="audio">
                         <audio controls>
