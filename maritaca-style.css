@@ -145,10 +145,11 @@ header{
 }
 
 /* sub-content - imagens aves e mapas – imagens*/
+/* tá um tico bagunçado porque eu estava testando as coisas */
 
 .sub-content{
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
 }
 
 .images-maps{
@@ -166,6 +167,7 @@ figure {
 }
 
 .images-maps__content{
+    flex: 1 1 50px;
     max-height: 200px;
 }
 
@@ -174,11 +176,12 @@ figure {
 
 .sub-content__caption{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
 }
 
-.sub-content__caption{
+/*.sub-content__caption{
     position: relative;
-}
+}*/
 
 caption .sub-content__caption{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
