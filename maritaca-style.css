@@ -166,12 +166,10 @@ figure {
     margin: 0px;
 }
 
-.images-maps__content__images{
-    max-width: 90%;
-}
-
-.images-maps__content__maps{
-    min-width: 100%;
+.images-maps__content__images,
+.images-maps__content__maps {
+    max-width: 100%;
+    height: auto;
 }
 
 /* sub- content - imagens aves e mapas – textos e legendas*/
