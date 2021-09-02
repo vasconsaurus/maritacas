@@ -144,8 +144,7 @@ header{
     margin-bottom: 72px;
 }
 
-/* sub-content - imagens aves e mapas – imagens*/
-/* tá um tico bagunçado porque eu estava testando as coisas */
+/* sub-content - imagens aves e mapas, e legendas - flex */
 
 .sub-content{
     display: flex;
@@ -155,36 +154,49 @@ header{
 .images-maps{
     display: flex;
     flex-flow: row wrap;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-evenly;
     background-color:lightgray;
     padding: 5px;
 }
 
 figure {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    max-width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.images-maps__content__images,
-.images-maps__content__maps {
+.images-maps__image {
     max-width: 100%;
     height: auto;
+    flex: 1 2;
 }
 
-/* sub- content - imagens aves e mapas – textos e legendas*/
+.images-maps__map {
+    max-width: 100%;
+    height: auto;
+    flex: 2 1;
+}
 
-.sub-content__caption{
+.sub-content__map__caption {
+    align-self: flex-start;
+    flex-basis: 10%;
+}
+
+.sub-content__image__caption {
+    align-self: flex-start;
+    flex-basis: 10%;
+}
+
+/* sub- content - textos e legendas - estilo */
+
+caption {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: small;
-}
-
-/*.sub-content__caption{
-    position: relative;
-}*/
-
-caption .sub-content__caption{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .audio{
