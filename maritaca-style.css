@@ -23,13 +23,8 @@ hr{
 
 p, ul {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 16px;
-}
-
-figcaption {
-    font-size: 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 /*estilo das listas: sem nenhum estilo, para poder usar recuo feito na mão com elemento especial de texto*/
@@ -154,63 +149,36 @@ header{
 .images-maps{
     padding: 5px;
     margin: 0;
+    width: fit-content;
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
     justify-content: flex-start;
-    background-color:lightgray;
+    /*background-color:lightgray;*/
 }
 
 .images-maps__image{
     padding-right: 5%;
-    width: 30%;
-    max-height: 30%;
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
 }
 
 .images-maps__map{
-    padding-right: 5%;
-    max-width: 100%;
+    padding-right: 20%;
+    width: 30%;
     height: auto;
+    object-fit: contain;
 }
 
-figcaption, .images-maps__caption {
+figcaption {
     max-width: 10%;
     align-self: flex-start;
-    color: blue;
-    font-size: x-small;
-    padding-right: 5px;
 }
 
-/*figure {
-    padding: 0;
-    margin: 0;
-    max-width: 50%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.images-maps__image {
-    max-width: 100%;
-    height: auto;
-    flex: 1 2;
-}
-
-.images-maps__map {
-    max-width: 100%;
-    height: auto;
-    flex: 2 1;
-}
-
-.sub-content__map__caption {
-    align-self: flex-start;
-    flex-basis: 10%;
-}
-
-.sub-content__image__caption {
-    align-self: flex-start;
-    flex-basis: 10%;
+figcaption p {
+    font-size: 10px;
+    line-height: 12px;
 }
 
 /* sub- content - textos e legendas - estilo */
