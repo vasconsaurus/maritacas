@@ -139,12 +139,14 @@ header{
     margin-bottom: 72px;
 }
 
-/* sub-content - imagens aves e mapas, e legendas - flex */
+/* sub-content - flex */
 
 .sub-content{
     display: flex;
     flex-flow: column nowrap;
 }
+
+/* imagens e mapas – flex */
 
 .images-maps{
     padding: 5px;
@@ -176,22 +178,27 @@ figcaption {
     align-self: flex-start;
 }
 
-figcaption p {
+figcaption p, figcaption a {
     font-size: 10px;
     line-height: 12px;
 }
 
-/* sub- content - textos e legendas - estilo */
-
-caption {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: small;
-}
+/* audio */
 
 .audio{
+    display: flex;
     margin: 60px 0px 20px 0px;
+    padding: 5px;
+    background-color: tomato;
+    align-items: flex-start;
+    flex-flow: column;
+    border-top: 8px solid black;
 }
 
+.audio__caption{
+    max-width: 50%;
+
+}
 
 /*lista final references*/
 .references{
