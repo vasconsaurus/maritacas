@@ -224,6 +224,13 @@ caption .sub-content__caption {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+/*
+ * Faz um tempo que eu tenho evitado shorthand em CSS
+ *
+ * Esse artigo aqui resume minha opinião:
+ * https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/
+ */
 .audio {
     margin: 60px 0px 20px 0px;
 }
