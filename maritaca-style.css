@@ -4,6 +4,12 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
+/* Vale a pena pesquisar sobre "rem" e usar "rem" ao invés de "px" e "em"
+ * (usar "em" é definição de uma viagem pro inferno)
+ * https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
+ *
+ * O truque de setar font-size como 62.5% é ótimo <3
+ */
 h1 {
     font-size: 36px;
 }
