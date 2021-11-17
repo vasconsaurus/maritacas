@@ -1,3 +1,22 @@
+/*
+ * Pra sanidade, eu sempre faço o seguinte nos meus projetos
+ *
+ * *, *:after, *:before {
+ *   box-sizing: border-box:
+ * }
+ *
+ * Quando eu não quero usar reset ou normalize, eu faço isso:
+ *
+ * *, *:after, *:before {
+ *   box-sizing: border-box:
+ *   margin: 0;
+ *   padding: 0;
+ * }
+ *
+ * Mais sobre box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ *
+ */
+
 /* Normalmente se põe um espaço entre a última regra e as chaves de abertura. Isso sou eu sendo mega chato, porém :x */
 h1, h2, h3 {
     font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
