@@ -123,6 +123,13 @@ header {
     padding: 5px;
 }
 
+/* Eu costumo evitar usar IDs como um todo
+ * hoje em dia eu peço pras pessoas não usarem
+ * ids em CSS por conta da especificidade alta.
+ *
+ * https://web.dev/learn/css/specificity/
+ *
+ */
 #main-menu__left ul {
     display: flex;
     flex-flow: row wrap;
